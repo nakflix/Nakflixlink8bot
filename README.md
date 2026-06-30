@@ -12,19 +12,16 @@
 
 ```bash
 # 1. Clone and enter the directory
-git clone https://github.com/yourfork/muti-file-sharing.git
-cd muti-file-sharing
+git clone https://github.com/nakflix/Nakflixlink8bot.git
+cd Nakflixlink8bot
 
 # 2. Create a virtual environment
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate      # Windows: .venv\Scripts\activate
 
 # 3. Install dependencies
 pip install -r requirements.txt
 
-# 4. Configure
-cp .env.example .env
-# Edit .env with your values
 
 # 5. Run
 python main.py
